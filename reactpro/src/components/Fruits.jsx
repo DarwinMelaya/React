@@ -9,22 +9,22 @@ const Fruits = () => {
     },
     {
       name: "Mango",
-      price: 20,
+      price: 8,
       emoji: "🥭",
     },
     {
       name: "Banana",
-      price: 30,
+      price: 2,
       emoji: "🍌",
     },
     {
       name: "Orange",
-      price: "40",
+      price: "4",
       emoji: "🍊",
     },
     {
       name: "Pineapple",
-      price: "50",
+      price: "9",
       emoji: "🍍",
     },
   ];
