@@ -1,9 +1,10 @@
 function Hello(props) {
   console.log(props);
+  const { name, message, age } = props;
   return (
     <div>
       <h1>
-        {props.message} {props.name}
+        {age} {message} {name}
       </h1>
     </div>
   );
