@@ -1,6 +1,4 @@
-function Hello(props) {
-  console.log(props);
-  const { name, message, age } = props;
+function Hello({ name, message, age }) {
   return (
     <div>
       <h1>
