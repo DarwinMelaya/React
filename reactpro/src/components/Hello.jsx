@@ -1,10 +1,9 @@
 function Hello() {
   return (
     <div>
-      <h1>Hello from a component!</h1> <h1>Wow!</h1>
+      <h1>Hello Darwin</h1>
     </div>
   );
 }
 
 export default Hello;
-S;
