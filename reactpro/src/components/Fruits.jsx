@@ -1,10 +1,40 @@
 const Fruits = () => {
-  const fruits = ["Apple", "Mango", "Banana", "Orange", "Pineapple"];
+  const fruits = [
+    {
+      name: "Apple",
+      price: 10,
+      emoji: "🍎",
+    },
+    {
+      name: "Mango",
+      price: 30,
+      emoji: "🥭",
+    },
+    {
+      name: "Banana",
+      price: 10,
+      emoji: "🍌",
+    },
+    {
+      name: "Orange",
+      price: "🍊",
+      emoji: "😭",
+    },
+    {
+      name: "Pineapple",
+      price: "🍍",
+      emoji: "😭",
+    },
+  ];
+
   return (
     <div>
       <ul>
         {fruits.map((fruit) => (
-          <li key={fruit}>{fruit}</li>
+          <li key={fruit.name}>
+            {fruit.emoji} {fruit.name} ${fruit.price}
+            {""}
+          </li>
         ))}
       </ul>
     </div>
