@@ -6,26 +6,31 @@ const Fruits = () => {
       name: "Apple",
       price: 10,
       emoji: "🍎",
+      soldout: true,
     },
     {
       name: "Mango",
-      price: 8,
+      price: 7,
       emoji: "🥭",
+      soldout: false,
     },
     {
       name: "Banana",
       price: 2,
       emoji: "🍌",
+      soldout: true,
     },
     {
       name: "Orange",
-      price: "4",
+      price: "5",
       emoji: "🍊",
+      soldout: false,
     },
     {
       name: "Pineapple",
-      price: "9",
+      price: "8",
       emoji: "🍍",
+      soldout: true,
     },
   ];
 
@@ -38,6 +43,7 @@ const Fruits = () => {
             name={fruit.name}
             price={fruit.price}
             emoji={fruit.emoji}
+            soldout={fruit.soldout}
           />
         ))}
       </ul>
